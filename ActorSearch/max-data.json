@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "type": "actorSearchResult",
+    "version": "1.0.0"
+  },
+  "data": [
+    {
+      "actorId": "a3",
+      "officeId": "o3",
+      "title": "Jim Clark",
+      "description": "U.S. House of Representatives, Massachusetts CD 8",
+      "termStarted": "2011-01-03T14:56:29.000Z",
+      "termEnded": "2017-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o1",
+      "title": "Joseph (Joe) Kennedy",
+      "description": "U.S. House of Representatives, Massachusetts CD 3",
+      "termStarted": "2015-05-22T14:56:29.000Z",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o2",
+      "title": "Joseph (Joe) Kennedy",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "2017-01-03T14:56:29.000Z",
+      "termEnded": ""
+    },
+    {
+      "actorId": "a2",
+      "officeId": "o2",
+      "title": "Elizabeth Warren",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a3",
+      "officeId": "o3",
+      "title": "Christian Hamilton",
+      "description": "U.S. House of Representatives, Massachusetts CD 8",
+      "termStarted": "2011-01-03T14:56:29.000Z",
+      "termEnded": "2017-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o1",
+      "title": "Harriet Underwood",
+      "description": "U.S. House of Representatives, Massachusetts CD 3",
+      "termStarted": "2015-05-22T14:56:29.000Z",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o2",
+      "title": "Harriet Underwood",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "2017-01-03T14:56:29.000Z",
+      "termEnded": ""
+    },
+    {
+      "actorId": "a2",
+      "officeId": "o2",
+      "title": "India McGregor",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a3",
+      "officeId": "o3",
+      "title": "Maryland Frye",
+      "description": "U.S. House of Representatives, Massachusetts CD 8",
+      "termStarted": "2011-01-03T14:56:29.000Z",
+      "termEnded": "2017-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o1",
+      "title": "Vi Keefe",
+      "description": "U.S. House of Representatives, Massachusetts CD 3",
+      "termStarted": "2015-05-22T14:56:29.000Z",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o2",
+      "title": "Vi Keefe",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "2017-01-03T14:56:29.000Z",
+      "termEnded": ""
+    },
+    {
+      "actorId": "a2",
+      "officeId": "o2",
+      "title": "Roselia Scarbrough",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a3",
+      "officeId": "o3",
+      "title": "Giuseppe McConnell",
+      "description": "U.S. House of Representatives, Massachusetts CD 8",
+      "termStarted": "2011-01-03T14:56:29.000Z",
+      "termEnded": "2017-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o1",
+      "title": "Rosa Horton",
+      "description": "U.S. House of Representatives, Massachusetts CD 3",
+      "termStarted": "2015-05-22T14:56:29.000Z",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o2",
+      "title": "Delia Harper",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "2017-01-03T14:56:29.000Z",
+      "termEnded": ""
+    },
+    {
+      "actorId": "a2",
+      "officeId": "o2",
+      "title": "Sheldon Miles",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a3",
+      "officeId": "o3",
+      "title": "Elias Mendez",
+      "description": "U.S. House of Representatives, Massachusetts CD 8",
+      "termStarted": "2011-01-03T14:56:29.000Z",
+      "termEnded": "2017-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o1",
+      "title": "Lydia Cobb",
+      "description": "U.S. House of Representatives, Massachusetts CD 3",
+      "termStarted": "2015-05-22T14:56:29.000Z",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a1",
+      "officeId": "o2",
+      "title": "Leroy Peterson",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "2017-01-03T14:56:29.000Z",
+      "termEnded": ""
+    },
+    {
+      "actorId": "a2",
+      "officeId": "o2",
+      "title": "William (Bill) Lowe",
+      "description": "U.S. Senate, senator from Massachusetts",
+      "termStarted": "",
+      "termEnded": "2016-12-31T14:56:29.000Z"
+    }
+  ]
+}
