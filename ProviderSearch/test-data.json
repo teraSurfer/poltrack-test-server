@@ -1,0 +1,26 @@
+{
+  "testDatabase": [
+    {
+      "actorId": "a3",
+      "officeId": "o3",
+      "providerId": "p1",
+      "providerTitle": "American Civil Liberties Union",
+      "providerUrl": "https://aclu.org",
+      "scorecardId": "sc1",
+      "scorecardDescription": "2015 Report Card",
+      "scorecardStartDate": "2015-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2015-12-31T14:56:29.000Z"
+    },
+    {
+      "actorId": "a3",
+      "officeId": "o3",
+      "providerId": "p2",
+      "providerTitle": "American Conservative Union",
+      "providerUrl": "https://conservative.org",
+      "scorecardId": "sc2",
+      "scorecardDescription": "2015 Report Card",
+      "scorecardStartDate": "2015-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2015-12-31T14:56:29.000Z"
+    }
+  ]
+}
