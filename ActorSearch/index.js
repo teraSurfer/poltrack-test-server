@@ -1,11 +1,11 @@
 module.exports = function (context, req) {
     var fs = require('fs');
 
-    context.log('JavaScript HTTP trigger function processed a request.');
+    context.log('ActorSearch HTTP trigger function processed a request.');
 
     if (req.query.q || (req.body && req.body.q)) {
 
-        var filepath = './ActorSearch/empty-data.json';
+        var filepath = './ProviderSearch/test-data.json';
         var queryString = (req.query.q) ? req.query.q : req.body.q;
 
         switch (queryString) {
