@@ -5,32 +5,32 @@
  },
   "content": [
     {
-      "actorId": "a3",
-      "officeId": "o3",
+      "personId": "p1",
+      "officeId": "o1",
       "title": "Jim Clark",
       "description": "U.S. House of Representatives, Massachusetts CD 8",
       "termStarted": "2011-01-03T14:56:29.000Z",
       "termEnded": "2017-12-31T14:56:29.000Z"
     },
     {
-      "actorId": "a1",
-      "officeId": "o1",
+      "personId": "p2",
+      "officeId": "o2",
       "title": "Joseph (Joe) Kennedy",
       "description": "U.S. House of Representatives, Massachusetts CD 3",
       "termStarted": "2015-05-22T14:56:29.000Z",
       "termEnded": "2016-12-31T14:56:29.000Z"
     },
     {
-      "actorId": "a1",
-      "officeId": "o2",
+      "personId": "p2",
+      "officeId": "o3",
       "title": "Joseph (Joe) Kennedy",
       "description": "U.S. Senate, senator from Massachusetts",
       "termStarted": "2017-01-03T14:56:29.000Z",
       "termEnded": ""
     },
     {
-      "actorId": "a2",
-      "officeId": "o2",
+      "personId": "p3",
+      "officeId": "o3",
       "title": "Elizabeth Warren",
       "description": "U.S. Senate, senator from Massachusetts",
       "termStarted": "",

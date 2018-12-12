@@ -1,7 +1,7 @@
 {
   "testDatabase": [
     {
-      "actorId": "a3",
+      "personId": "p3",
       "officeId": "o3",
       "providerId": "p1",
       "providerTitle": "American Civil Liberties Union",
@@ -12,7 +12,7 @@
       "scorecardEndDate": "2015-12-31T14:56:29.000Z"
     },
     {
-      "actorId": "a3",
+      "personId": "p3",
       "officeId": "o3",
       "providerId": "p2",
       "providerTitle": "American Conservative Union",
@@ -21,6 +21,50 @@
       "scorecardDescription": "2015 Report Card",
       "scorecardStartDate": "2015-01-01T14:56:29.000Z",
       "scorecardEndDate": "2015-12-31T14:56:29.000Z"
+    },
+    {
+      "personId": "p2",
+      "officeId": "o2",
+      "providerId": "p2",
+      "providerTitle": "American Conservative Union",
+      "providerUrl": "https://conservative.org",
+      "scorecardId": "sc3",
+      "scorecardDescription": "2015 Report Card",
+      "scorecardStartDate": "2015-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2015-12-31T14:56:29.000Z"
+    },
+    {
+      "personId": "p2",
+      "officeId": "o2",
+      "providerId": "p2",
+      "providerTitle": "American Conservative Union",
+      "providerUrl": "https://conservative.org",
+      "scorecardId": "sc4",
+      "scorecardDescription": "2014 Report Card",
+      "scorecardStartDate": "2014-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2014-12-31T14:56:29.000Z"
+    },
+    {
+      "personId": "p2",
+      "officeId": "o2",
+      "providerId": "p3",
+      "providerTitle": "Libertarian Party",
+      "providerUrl": "https://libertarians.org",
+      "scorecardId": "sc5",
+      "scorecardDescription": "Economic Freedom Report Card",
+      "scorecardStartDate": "2014-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2014-12-31T14:56:29.000Z"
+    },
+    {
+      "personId": "p2",
+      "officeId": "o2",
+      "providerId": "p3",
+      "providerTitle": "Libertarian Party",
+      "providerUrl": "https://libertarians.org",
+      "scorecardId": "sc6",
+      "scorecardDescription": "Personal Freedom Report Card",
+      "scorecardStartDate": "2014-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2014-12-31T14:56:29.000Z"
     }
   ]
 }

@@ -2,14 +2,14 @@ module.exports = async function (context, req) {
     /**
      * ProviderScorecardSearch
      * Required input parameters:
-     * aid - actorId
+     * pid - personId
      * oid - officeId
      * fi - index of first search result item to be returned
      */
     context.log('ProviderSearch HTTP trigger function processed a request.');
     var fs = require('fs');
 
-    if ((req.query.aid || (req.body && req.body.aid)) &&
+    if ((req.query.pid || (req.body && req.body.pid)) &&
         (req.query.oid || (req.body && req.body.oid)) &&
         (req.query.fi || (req.body && req.body.fi))
     ) {
@@ -19,7 +19,7 @@ module.exports = async function (context, req) {
         var filepath = './ProviderSearch/test-data.json';
         var data = fs.readFileSync(filepath, 'utf-8');
 
-        var aid = (req.query.aid) ? req.query.aid : req.body.aid;
+        var pid = (req.query.pid) ? req.query.pid : req.body.pid;
         var oid = (req.query.oid) ? req.query.oid : req.body.oid;
         var fi = (req.query.fi) ? req.query.fi : req.body.fi;
 
@@ -30,7 +30,7 @@ module.exports = async function (context, req) {
                 type: "providerSearchResult",
                 version: "1.0.0"
             },
-            aid: aid,
+            pid: pid,
             oid: oid,
             lastIndex: "2",
             maxIndex: "2",
@@ -40,7 +40,7 @@ module.exports = async function (context, req) {
         let index = 0;
 
         testDb.testDatabase.forEach(element => {
-            if (element.actorId === aid && element.officeId === oid) {
+            if (element.personId === pid && element.officeId === oid) {
                 index++;
                 result.content.push({
                     "index": index,
