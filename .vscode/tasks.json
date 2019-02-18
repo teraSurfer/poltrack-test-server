@@ -3,9 +3,8 @@
   "tasks": [
     {
       "label": "Run Functions Host",
-      "identifier": "runFunctionsHost",
       "type": "shell",
-      "command": "func host start",
+      "command": "func host start --cors http://localhost:4200,http://locahost:4200/reportcard",
       "isBackground": true,
       "presentation": {
         "reveal": "always"
@@ -33,6 +32,13 @@
           "languageWorkers:node:arguments": "--inspect=5858"
         }
       }
+    },
+    {
+      "type": "func",
+      "command": "host start",
+      "problemMatcher": [
+        "$func-watch"
+      ]
     }
   ]
 }
