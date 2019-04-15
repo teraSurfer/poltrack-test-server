@@ -8,6 +8,8 @@
       "providerUrl": "https://aclu.org",
       "scorecardId": "sc1",
       "scorecardDescription": "2015 Report Card",
+      "scorecardActionMaxWeight": "1",
+      "scorecardActionCount": "1",
       "scorecardStartDate": "2015-01-01T14:56:29.000Z",
       "scorecardEndDate": "2015-12-31T14:56:29.000Z"
     },
@@ -19,6 +21,8 @@
       "providerUrl": "https://conservative.org",
       "scorecardId": "sc2",
       "scorecardDescription": "2015 Report Card",
+      "scorecardActionMaxWeight": "6",
+      "scorecardActionCount": "3",
       "scorecardStartDate": "2015-01-01T14:56:29.000Z",
       "scorecardEndDate": "2015-12-31T14:56:29.000Z"
     },
@@ -30,6 +34,8 @@
       "providerUrl": "https://conservative.org",
       "scorecardId": "sc3",
       "scorecardDescription": "2015 Report Card",
+      "scorecardActionMaxWeight": "2",
+      "scorecardActionCount": "50",
       "scorecardStartDate": "2015-01-01T14:56:29.000Z",
       "scorecardEndDate": "2015-12-31T14:56:29.000Z"
     },
@@ -41,6 +47,8 @@
       "providerUrl": "https://conservative.org",
       "scorecardId": "sc4",
       "scorecardDescription": "2014 Report Card",
+      "scorecardActionMaxWeight": "1",
+      "scorecardActionCount": "1",
       "scorecardStartDate": "2014-01-01T14:56:29.000Z",
       "scorecardEndDate": "2014-12-31T14:56:29.000Z"
     },
@@ -52,6 +60,8 @@
       "providerUrl": "https://libertarians.org",
       "scorecardId": "sc5",
       "scorecardDescription": "Economic Freedom Report Card",
+      "scorecardActionMaxWeight": "100",
+      "scorecardActionCount": "6",
       "scorecardStartDate": "2014-01-01T14:56:29.000Z",
       "scorecardEndDate": "2014-12-31T14:56:29.000Z"
     },
@@ -63,6 +73,8 @@
       "providerUrl": "https://libertarians.org",
       "scorecardId": "sc6",
       "scorecardDescription": "Personal Freedom Report Card",
+      "scorecardActionMaxWeight": "10",
+      "scorecardActionCount": "5",
       "scorecardStartDate": "2014-01-01T14:56:29.000Z",
       "scorecardEndDate": "2014-12-31T14:56:29.000Z"
     }

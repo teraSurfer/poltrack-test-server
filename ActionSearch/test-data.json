@@ -1,0 +1,354 @@
+{
+  "testDatabase": [
+    {
+      "personId": "p3",
+      "officeId": "o3",
+      "providerId": "p1",
+      "providerTitle": "American Civil Liberties Union",
+      "providerUrl": "https://aclu.org",
+      "scorecardId": "sc1",
+      "scorecardDescription": "2015 Report Card",
+      "scorecardActionMaxWeight": "1",
+      "scorecardActionCount": "1",
+     "scorecardStartDate": "2015-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2015-12-31T14:56:29.000Z",
+      "actions": [
+        {
+          "actionId": "a1",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 2,
+          "documentId": "d1",
+          "documentUpdateDate": "2015-01-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Action description fragment can be up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this much."
+        }
+      ]
+    },
+    {
+      "personId": "p3",
+      "officeId": "o3",
+      "providerId": "p2",
+      "providerTitle": "American Conservative Union",
+      "providerUrl": "https://conservative.org",
+      "scorecardId": "sc2",
+      "scorecardDescription": "2015 Report Card",
+      "scorecardActionMaxWeight": "6",
+      "scorecardActionCount": "3",
+      "scorecardStartDate": "2015-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2015-12-31T14:56:29.000Z",
+      "actions": [
+        {
+          "actionId": "a1",
+          "actionTypes": "1",
+          "preferredPositions": 2,
+          "weight": 1,
+          "documentId": "d1",
+          "documentUpdateDate": "2015-01-01T14:56:29.000Z",
+          "documentTitle": "ACU Title of 2015 vote a1",
+          "documentContentFragment": "Action description fragment can be up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "a2",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d2",
+          "documentUpdateDate": "2016-01-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "ACU description of vote a2 in 2015 scorecard. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "a3",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d3",
+          "documentUpdateDate": "2015-06-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Vote a3 descr by ACU in 2015 scorecard. up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this"
+        }
+      ]
+    },
+    {
+      "personId": "p2",
+      "officeId": "o2",
+      "providerId": "p2",
+      "providerTitle": "American Conservative Union",
+      "providerUrl": "https://conservative.org",
+      "scorecardId": "sc3",
+      "scorecardDescription": "2015 Report Card",
+      "scorecardActionMaxWeight": "2",
+      "scorecardActionCount": "3",
+      "scorecardStartDate": "2015-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2015-12-31T14:56:29.000Z",
+      "actions": [
+        {
+          "actionId": "a1",
+          "actionTypes": "1",
+          "preferredPositions": 2,
+          "weight": 1,
+          "documentId": "d1",
+          "documentUpdateDate": "2015-01-01T14:56:29.000Z",
+          "documentTitle": "ACU Title of 2015 vote a1",
+          "documentContentFragment": "Action description fragment can be up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "a2",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d2",
+          "documentUpdateDate": "2016-01-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "ACU description of vote a2 in 2015 scorecard. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "a3",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d3",
+          "documentUpdateDate": "2015-06-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Vote a3 descr by ACU in 2015 scorecard. up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this"
+        }
+      ]
+    },
+    {
+      "personId": "p2",
+      "officeId": "o2",
+      "providerId": "p2",
+      "providerTitle": "American Conservative Union",
+      "providerUrl": "https://conservative.org",
+      "scorecardId": "sc4",
+      "scorecardDescription": "2014 Report Card",
+      "scorecardActionMaxWeight": "2",
+      "scorecardActionCount": "6",
+      "scorecardStartDate": "2014-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2014-12-31T14:56:29.000Z",
+      "actions": [
+        {
+          "actionId": "a4",
+          "actionTypes": "1",
+         "preferredPositions": 2,
+          "weight": 1,
+          "documentId": "d1",
+          "documentUpdateDate": "2015-01-01T14:56:29.000Z",
+          "documentTitle": "ACU Title of 2015 vote a1",
+          "documentContentFragment": "Same document ID (d1) also used in 2015 ACU scorecard. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "a5",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d5",
+          "documentUpdateDate": "2016-01-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "ACU description of vote a2 in 2015 scorecard. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "a6",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d6",
+          "documentUpdateDate": "2015-06-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Vote a3 descr by ACU in 2015 scorecard. up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this"
+        },
+        {
+          "actionId": "c1",
+          "actionTypes": "2",
+          "preferredPositions": 2,
+          "weight": 1,
+          "documentId": "d7",
+          "documentUpdateDate": "2015-01-01T14:56:29.000Z",
+          "documentTitle": "ACU Title of 2015 vote a1",
+          "documentContentFragment": "Same document ID (d1) also used in 2015 ACU scorecard. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "c2",
+          "actionTypes": "2",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d8",
+          "documentUpdateDate": "2016-01-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "ACU description of vote a2 in 2015 scorecard. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "c3",
+          "actionTypes": "3",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d9",
+          "documentUpdateDate": "2015-06-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Vote a3 descr by ACU in 2015 scorecard. up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this"
+        }
+      ]
+    },
+    {
+      "personId": "p2",
+      "officeId": "o2",
+      "providerId": "p3",
+      "providerTitle": "Libertarian Party",
+      "providerUrl": "https://libertarians.org",
+      "scorecardId": "sc5",
+      "scorecardDescription": "Economic Freedom Report Card",
+      "scorecardActionMaxWeight": "10",
+      "scorecardActionCount": "12",
+      "scorecardStartDate": "2014-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2014-12-31T14:56:29.000Z",
+      "actions": [
+        {
+          "actionId": "v7",
+          "actionTypes": "1",
+          "preferredPositions": 2,
+          "weight": 5,
+          "documentId": "p3v7",
+          "documentUpdateDate": "2015-01-01T14:56:29.000Z",
+          "documentTitle": "Title of 2014 LP vote v7",
+          "documentContentFragment": "Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "v8",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 10,
+          "documentId": "p3v8",
+          "documentUpdateDate": "2016-01-01T14:56:29.000Z",
+          "documentTitle": "Title of LP 2014 vote v8 can be 160 characters which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Description of vote v8 in 2014 LP scorecard. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "v9",
+          "actionTypes": "1",
+          "preferredPositions": 2,
+          "weight": 1,
+          "documentId": "p3v9",
+          "documentUpdateDate": "2015-06-01T14:56:29.000Z",
+          "documentTitle": "Title of document p3v9, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Description  of document p3v9. up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this"
+        },
+        {
+          "actionId": "c4",
+          "actionTypes": "2",
+          "preferredPositions": 2,
+          "weight": 8,
+          "documentId": "p3c4",
+          "documentUpdateDate": "2015-01-01T14:56:29.000Z",
+          "documentTitle": "Cospon p3c4 vote from document p3v10",
+          "documentContentFragment": "2014 LP scorecard. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "c5",
+          "actionTypes": "2",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "p3c5",
+          "documentUpdateDate": "2016-01-01T14:56:29.000Z",
+          "documentTitle": "Cospon p3c5 can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "ACU description of vote a2 in 2015 scorecard. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "c6",
+          "actionTypes": "2",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "p3c6",
+          "documentUpdateDate": "2015-06-01T14:56:29.000Z",
+          "documentTitle": "Cospon p3c6 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would",
+          "documentContentFragment": "Vote a3 descr by ACU in 2015 scorecard. up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this"
+        },
+        {
+          "actionId": "a4",
+          "actionTypes": "1",
+          "preferredPositions": 2,
+          "weight": 1,
+          "documentId": "d1",
+          "documentUpdateDate": "2015-01-01T14:56:29.000Z",
+          "documentTitle": "ACU Title of 2015 vote a1",
+          "documentContentFragment": "Same document ID (d1) also used in 2015 ACU scorecard. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "a5",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d5",
+          "documentUpdateDate": "2016-01-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "ACU description of vote a2 in 2015 scorecard. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "a6",
+          "actionTypes": "1",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d6",
+          "documentUpdateDate": "2015-06-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Vote a3 descr by ACU in 2015 scorecard. up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this"
+        },
+        {
+          "actionId": "c1",
+          "actionTypes": "2",
+         "preferredPositions": 2,
+          "weight": 1,
+          "documentId": "d7",
+          "documentUpdateDate": "2015-01-01T14:56:29.000Z",
+          "documentTitle": "ACU Title of 2015 vote a1",
+          "documentContentFragment": "Same document ID (d1) also used in 2015 ACU scorecard. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "c2",
+          "actionTypes": "2",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d8",
+          "documentUpdateDate": "2016-01-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "ACU description of vote a2 in 2015 scorecard. Which is about this much. Which is about this much. Which is about this much."
+        },
+        {
+          "actionId": "c3",
+          "actionTypes": "2",
+          "preferredPositions": 1,
+          "weight": 1,
+          "documentId": "d9",
+          "documentUpdateDate": "2015-06-01T14:56:29.000Z",
+          "documentTitle": "Vote 1 Title can be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Vote a3 descr by ACU in 2015 scorecard. up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this"
+        }
+      ]
+    },
+    {
+      "personId": "p2",
+      "officeId": "o2",
+      "providerId": "p3",
+      "providerTitle": "Libertarian Party",
+      "providerUrl": "https://libertarians.org",
+      "scorecardId": "sc6",
+      "scorecardDescription": "Personal Freedom Report Card",
+      "scorecardActionMaxWeight": "10",
+      "scorecardActionCount": "1",
+      "scorecardStartDate": "2014-01-01T14:56:29.000Z",
+      "scorecardEndDate": "2014-12-31T14:56:29.000Z",
+      "actions":[
+        {
+          "actionId": "c4",
+          "actionTypes": "2",
+          "preferredPositions": 2,
+          "weight": 1,
+          "documentId": "p3c4",
+          "documentUpdateDate": "2014-06-01T14:56:29.000Z",
+          "documentTitle": "Cospon p3c4 be 160 characters, which would be up to here, which would be up to here, which would be up to here, which would be up to here, which would be u",
+          "documentContentFragment": "Cospon p3c4 descr. up to 160 characters. Which is about this much. Which is about this much. Which is about this much. Which is about this"
+        }
+      ]
+    }
+  ]
+}
