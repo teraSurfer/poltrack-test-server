@@ -64,9 +64,9 @@ module.exports = async function (context, req) {
 
                     actions.push(newAction);
 
-                    if (q != "a" && index === 0) break;
+                    if (q != "all" && index === 0) break;
                 }
-                
+
                 result.content.push({
                     "index": index,
                     "providerId": element.providerId,
@@ -75,6 +75,7 @@ module.exports = async function (context, req) {
                     "scorecardId": element.scorecardId,
                     "scorecardDescription": element.scorecardDescription,
                     "scorecardStartDate": element.scorecardStartDate,
+                    "scorecardEndDate": element.scorecardEndDate,
                     "scorecardActionMaxWeight": element.scorecardActionMaxWeight,
                     "scorecardActionCount": element.scorecardActionCount,
                     "actions": actions

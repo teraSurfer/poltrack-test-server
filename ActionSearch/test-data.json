@@ -10,7 +10,7 @@
       "scorecardDescription": "2015 Report Card",
       "scorecardActionMaxWeight": "1",
       "scorecardActionCount": "1",
-     "scorecardStartDate": "2015-01-01T14:56:29.000Z",
+      "scorecardStartDate": "2015-01-01T14:56:29.000Z",
       "scorecardEndDate": "2015-12-31T14:56:29.000Z",
       "actions": [
         {
@@ -131,7 +131,7 @@
         {
           "actionId": "a4",
           "actionTypes": "1",
-         "preferredPositions": 2,
+          "preferredPositions": 2,
           "weight": 1,
           "documentId": "d1",
           "documentUpdateDate": "2015-01-01T14:56:29.000Z",
@@ -296,7 +296,7 @@
         {
           "actionId": "c1",
           "actionTypes": "2",
-         "preferredPositions": 2,
+          "preferredPositions": 2,
           "weight": 1,
           "documentId": "d7",
           "documentUpdateDate": "2015-01-01T14:56:29.000Z",
@@ -337,7 +337,7 @@
       "scorecardActionCount": "1",
       "scorecardStartDate": "2014-01-01T14:56:29.000Z",
       "scorecardEndDate": "2014-12-31T14:56:29.000Z",
-      "actions":[
+      "actions": [
         {
           "actionId": "c4",
           "actionTypes": "2",
