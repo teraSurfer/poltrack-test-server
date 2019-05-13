@@ -22,16 +22,38 @@ This is a test web server that emulates Microsoft Azure Functions used by [PolTr
 
 ## API
 
-Poltrack Test Server implements an API very loosely based on [JSON API Specification](http://jsonapi.org/).
+Poltrack Test Server simulates an API very loosely based on [JSON API Specification](http://jsonapi.org/). This API is used by the `PolTrack` app to gather the necessary inputs required to generate a `report card` for one or more politician:
+
+- **actors** (politicians) for which to generate the report card(s),
+- **info provider scorecards** containing information about actions taken by the above actors.
+
 
 ### Actor Search Function
 
-`http://localhost:7071/api/ActorSearch?q=<query_string>`
+`http://localhost:7071/api/ActorSearch`
 
-where `query_string` is `empty | small | max`
+Returns political actor that match a user input (query).  (Political) `actor` is usually a person who is now, or was in the past, holding a political office.  Actors can take several types of political actions (currently, roll call votes and co-sponsorships of legislation).
 
-Returns an array of `actor search result` objects.  (Political) `actor` is usually a person who is now, or was in the past, holding a political office.  Actors can take actions of certain type.
+**Example**
 
-### Provider Search Function
+`http://localhost:7071/api/ActorSearch?q=small`
 
-Returns an array of `provider search result` objects.  `provider` is an entity (organization or person) that provided information about an action taken by an `actor`.
+`http://localhost:7071/api/ActorSearch?q=max`
+
+### Info Provider Browse Function
+
+`http://localhost:7071/api/ProviderSearch?pid=p3&oid=o3&fi=1`
+
+Returns **all** info providers (actually their scorecards) who provided information on action(s) that given `actor` acted on.  `provider` is an entity (organization or person) that provided information about a political action.
+
+**Example**
+
+`http://localhost:7071/api/ActionSearch?pid=p3&oid=o3&q=all&fi=1`
+
+### Info Provider Search by Action Keywords Function
+
+Returns info provider scorecards that included actions the given actor acted on AND the action description matches the user query.
+
+**Example**
+
+`http://localhost:7071/api/ActionSearch?pid=p3&oid=o3&q=all&fi=1`
